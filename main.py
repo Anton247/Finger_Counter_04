@@ -8,7 +8,7 @@ hands = mp_Hands.Hands(max_num_hands = 2) # характеристики для 
 mpDraw = mp.solutions.drawing_utils # инициализация утилит для рисования
 
 finger_Coord = [(8, 6), (12, 10), (16, 14), (20, 18)] # координаты "суставов" пальцев, кроме большого
-thumb_Coord = (4, 2) # координаты "суставов" большого палца
+thumb_Coord = (4, 3) # координаты "суставов" большого палца
 
 while cap.isOpened():
     success, image = cap.read()
